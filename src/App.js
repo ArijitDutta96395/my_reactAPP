@@ -14,7 +14,7 @@ const App = () => {
       <button className="my-button" onClick={handleClick}>
         {showText ? 'Hide Text' : 'Show Text'}
       </button>
-      {showText && <p className="my-text">Hayyy girls, Arijit This Side...</p>}
+      {showText && <p className="my-text">Hello Everyone...</p>}
     </div>
   );
 };
